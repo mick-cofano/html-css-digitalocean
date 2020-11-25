@@ -15,6 +15,7 @@
 .jumbotron-bg {
   background-image: url("../img/background-header.jpg");
   height: 600px;
+  margin-bottom: -30px;
 }
 
 .jumbotron-text {
@@ -39,4 +40,17 @@
 
 .jumbotron-login p {
   font-size: 15px;
+}
+
+.bg-grey {
+  background-color: #F3F5F9;
+  height: 300px;
+}
+.brands-logo {
+  height: 150px;
+  padding-top: 50px;
+  background-color: #F3F5F9;
+}
+.brands-logo > img {
+  width: 100%;
 }
