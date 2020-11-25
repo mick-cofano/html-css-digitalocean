@@ -10,5 +10,22 @@
 
 .ocean-logo img {
   height: 20px;
-  padding-right: 100px;
+}
+
+.background-jumbotron {
+  background-image: url("img/background-header.jpg");
+  height: 300px;
+}
+
+.jumbotron-bg {
+  background-image: url("../img/background-header.jpg");
+  height: 600px;
+}
+
+.jumbotron-login {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  height: 400px;
+  margin-top: 50px;
 }
