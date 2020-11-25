@@ -1,0 +1,14 @@
+.bl-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bl-navbar {
+  background-color: white;
+  border: 0;
+}
+
+.ocean-logo img {
+  height: 20px;
+  padding-right: 100px;
+}
