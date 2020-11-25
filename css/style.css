@@ -12,14 +12,21 @@
   height: 20px;
 }
 
-.background-jumbotron {
-  background-image: url("img/background-header.jpg");
-  height: 300px;
-}
-
 .jumbotron-bg {
   background-image: url("../img/background-header.jpg");
   height: 600px;
+}
+
+.jumbotron-text {
+  color: white;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.jumbotron-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .jumbotron-login {
@@ -28,4 +35,8 @@
   text-align: center;
   height: 400px;
   margin-top: 50px;
+}
+
+.jumbotron-login p {
+  font-size: 15px;
 }
