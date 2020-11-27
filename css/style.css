@@ -86,3 +86,24 @@
 .regions-row .row {
   border-top: 1px solid white;
 }
+
+.bg-love-ocean {
+  background-color: #F3F5F9;
+}
+
+.rockerbox-img img {
+  height: 50px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-footer {
+  background-color: #031C4E;
+  color: white;
+}
+
+.footer-lists ul {
+  list-style: none;
+}
