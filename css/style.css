@@ -1,8 +1,17 @@
+/* UTILITY */
 .bl-container {
   width: 100%;
   margin: 0 auto;
 }
 
+.bg-white {
+  background-color: white;
+}
+
+.paddings {
+  padding: 40px 0px;
+}
+/* ---- NAVBAR ---- */
 .bl-navbar {
   background-color: white;
   border: 0;
@@ -11,7 +20,9 @@
 .ocean-logo img {
   height: 20px;
 }
+/* ---- END NAVBAR ---- */
 
+/* ---- JUMBOTRON ---- */
 .jumbotron-bg {
   background-image: url("../img/background-header.jpg");
   margin-bottom: -15px;
@@ -20,13 +31,13 @@
 .jumbotron-text {
   color: white;
   text-align: left;
-  margin-top: 10px;
+
 }
 
 .jumbotron-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }
 
 .jumbotron-login {
@@ -34,13 +45,14 @@
   border-radius: 5px;
   text-align: center;
   height: 400px;
-  margin-top: 10px;
 }
 
 .jumbotron-login p {
   font-size: 15px;
 }
+/* ---- END JUMBOTRON ---- */
 
+/* ---- INNOVATE + BRANDS LOGOS ---- */
 .bg-grey {
   background-color: #F3F5F9;
   height: 500px;
@@ -59,21 +71,34 @@
 .stories {
   margin-top: 20px;
 }
+/* ---- END INNOVATE + BRANDS LOGOS ---- */
+
+/* ---- DEPLOY AND SCALE ---- */
+
+.scroll-menu ul {
+  border-left: 2px solid grey;
+  height: 200px;
+  margin-bottom: 30px;
+}
 
 .scroll-menu ul li {
   list-style: none;
   margin-left: -30px;
+  margin-bottom: 25px;
 }
 
 .bg-lightblue {
   background-color: #F3F5F9;
 }
+/* ---- DEPLOY AND SCALE ---- */
 
+/* ---- DESIGNED FOR DEVELOPERS ---- */
 .droplets img {
   height: 200px;
 }
+/* ---- DESIGNED FOR DEVELOPERS ---- */
 
-
+/* ---- REGION SERVICE ---- */
 .bg-regions {
   background-color: #0042C0;
   color: white;
@@ -86,7 +111,9 @@
 .regions-row .row {
   border-top: 1px solid white;
 }
+/* ---- REGION SERVICE ---- */
 
+/* ---- ROCKERBOX ---- */
 .bg-love-ocean {
   background-color: #F3F5F9;
 }
@@ -95,10 +122,10 @@
   height: 50px;
 }
 
-.bg-white {
-  background-color: white;
-}
+/* ---- ROCKERBOX ---- */
 
+
+/* ---- FOOTER ---- */
 .bg-footer {
   background-color: #031C4E;
   color: white;
@@ -106,4 +133,6 @@
 
 .footer-lists ul {
   list-style: none;
+  margin-left: -40PX;
 }
+/* ---- FOOTER ---- */
