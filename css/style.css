@@ -120,9 +120,12 @@
 /* ---- ROCKERBOX ---- */
 .bg-love-ocean {
   background-color: #F3F5F9;
-  height: 400px;
+  height: 600px;
 }
 
+.rockerbox-container {
+  height: 250px;
+}
 .rockerbox-img img {
   height: 20px;
 }
