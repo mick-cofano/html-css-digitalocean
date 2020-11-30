@@ -98,7 +98,8 @@
 
 /* ---- DESIGNED FOR DEVELOPERS ---- */
 .droplets img {
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 /* ---- DESIGNED FOR DEVELOPERS ---- */
 
@@ -124,10 +125,11 @@
 }
 
 .rockerbox-container {
-  height: 250px;
+  height: 400px;
 }
 .rockerbox-img img {
-  height: 20px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 /* ---- ROCKERBOX ---- */
