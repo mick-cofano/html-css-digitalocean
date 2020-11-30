@@ -156,7 +156,7 @@
 /* ---- ROCKERBOX ---- */
 .bg-love-ocean {
   background-color: #F3F5F9;
-  height: 600px;
+  height: 500px;
 }
 
 .rockerbox-container {
@@ -164,7 +164,7 @@
   margin:0 auto;
 }
 .rockerbox-img img {
-  width: 60%;
+  width: 50%;
   height: auto;
   margin-bottom: 20px;
 }
