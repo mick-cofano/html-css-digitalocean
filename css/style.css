@@ -59,7 +59,7 @@
 /* ---- INNOVATE + BRANDS LOGOS ---- */
 .bg-grey {
   background-color: #F3F5F9;
-  height: 500px;
+  height: 100%;
 }
 
 .bl-custom-row {
@@ -110,6 +110,8 @@
 }
 
 .regions-row {
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 30px;
   padding: 10px 10px;
 }
@@ -125,10 +127,11 @@
 }
 
 .rockerbox-container {
-  height: 400px;
+  height: 100%;
 }
 .rockerbox-img img {
-  height: 40px;
+  width: 60%;
+  height: auto;
   margin-bottom: 20px;
 }
 
