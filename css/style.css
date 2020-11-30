@@ -15,6 +15,16 @@
 .glyphs {
   margin-top: 100px;
 }
+
+/* ---- HELPBOT ---- */
+
+.helpbot {
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index: 11;
+}
+
 /* ---- NAVBAR ---- */
 .bl-navbar {
   background-color: white;
@@ -97,9 +107,32 @@
 /* ---- DEPLOY AND SCALE ---- */
 
 /* ---- DESIGNED FOR DEVELOPERS ---- */
+
+.droplets {
+  width: 80%;
+  margin:0 auto;
+}
 .droplets img {
   width: 100%;
   height: auto;
+}
+.slider-box {
+  position: relative;
+  height: 100%;
+}
+.slider-arrow-left, .slider-arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+}
+
+.slider-arrow-left {
+  left: 0;
+}
+
+.slider-arrow-right {
+  right: 0;
 }
 /* ---- DESIGNED FOR DEVELOPERS ---- */
 
@@ -127,7 +160,8 @@
 }
 
 .rockerbox-container {
-  height: 100%;
+  width: 80%;
+  margin:0 auto;
 }
 .rockerbox-img img {
   width: 60%;
